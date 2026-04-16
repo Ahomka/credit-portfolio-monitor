@@ -6,7 +6,7 @@
 
 ## 📊 Dashboard Preview
 
-![Credit Monitoring Dashboard](outputs/credit_monitoring_dashboard.png)
+![Credit Monitoring Dashboard](credit_monitoring_dashboard.png)
 
 ---
 
