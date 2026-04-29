@@ -1,4 +1,4 @@
-# 🏦 Ghana Bank — Credit Portfolio Monitoring System
+# 🏦 Ghana Bank - Credit Portfolio Monitoring System
 
 > A Python-based credit monitoring analytics system replicating the core workflows of a bank Credit Monitoring Officer: NPL tracking, portfolio classification, early warning scoring, provision analysis, and automated report generation.
 
@@ -41,21 +41,21 @@ Calculates NPL ratio, provision adequacy, and collateral coverage per class.
 Identifies which sectors carry the highest NPL ratios and flags concentration risk. Outputs a ranked view of sector exposure for targeted remediation.
 
 ### 3. Early Warning Scoring (EWS) Model
-A rules-based scoring model (0–100) that flags high-risk accounts based on:
-- Days Past Due (DPD) — weighted 40 points
-- Collateral Coverage — weighted 30 points
-- Provision Rate — weighted 20 points
-- Review Completion — weighted 10 points
+A rules-based scoring model (0-100) that flags high-risk accounts based on:
+- Days Past Due (DPD) - weighted 40 points
+- Collateral Coverage - weighted 30 points
+- Provision Rate - weighted 20 points
+- Review Completion - weighted 10 points
 
 Outputs a prioritised watchlist for relationship manager action.
 
-### 4. Remediation Tracking — Planned vs. Achieved
+### 4. Remediation Tracking - Planned vs. Achieved
 Compares improvement targets against realised remediation values by classification class. Computes the Remediation Value to Staff Cost ratio.
 
 ### 5. Automated Monitoring Reports
 Generates two CSV outputs on every run:
-- `monitoring_report_MMMMM_YYYY.csv` — full portfolio view with EWS scores
-- `high_risk_watchlist.csv` — prioritised list of flagged accounts
+- `monitoring_report_MMMMM_YYYY.csv` - full portfolio view with EWS scores
+- `high_risk_watchlist.csv` - prioritised list of flagged accounts
 
 ---
 
@@ -102,7 +102,7 @@ python credit_monitor.py
 ## 📈 Sample Output
 
 ```
-GHANA BANK — CREDIT PORTFOLIO MONITORING REPORT
+GHANA BANK - CREDIT PORTFOLIO MONITORING REPORT
 Reporting Date: April 2026
 
 KPI                                                Value
@@ -128,19 +128,19 @@ Agriculture              46.7%       GHS 4.67M     GHS 9.99M
 ## 🛠 Tech Stack
 
 - **Python 3.10+**
-- **pandas** — data manipulation and portfolio aggregation
-- **NumPy** — numerical operations and synthetic data generation
-- **matplotlib** — dashboard and visualisation
-- **seaborn** — supplementary visualisation styling
+- **pandas** - data manipulation and portfolio aggregation
+- **NumPy** - numerical operations and synthetic data generation
+- **matplotlib** - dashboard and visualisation
+- **seaborn** - supplementary visualisation styling
 
 ---
 
 ## 🏛 Domain Context
 
 Built to reflect credit monitoring practice in Ghanaian banking, aligned with:
-- **Bank of Ghana Prudential Guidelines** — loan classification criteria
-- **Basel II/III credit risk frameworks** — provision rate methodology
-- **NIC reporting standards** — portfolio coverage and impairment metrics
+- **Bank of Ghana Prudential Guidelines** - loan classification criteria
+- **Basel II/III credit risk frameworks** - provision rate methodology
+- **NIC reporting standards** - portfolio coverage and impairment metrics
 
 ---
 
